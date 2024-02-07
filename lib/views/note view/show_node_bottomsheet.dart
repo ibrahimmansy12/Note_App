@@ -13,7 +13,16 @@ class Shownotebuttomnsheet extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          CustonTextField()
+          CustonTextField(
+            hint: "title",
+          ),
+          SizedBox(
+            height: 16,
+          ),
+          CustonTextField(
+            hint: "content",
+            maxlines: 3,
+          ),
         ],
       ),
     );
