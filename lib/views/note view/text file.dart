@@ -11,14 +11,14 @@ class CustonTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextField(
       maxLines: maxlines,
-      cursorColor: primarycolor,
+      cursorColor: kprimarycolor,
       decoration: InputDecoration(
         
           hintText: hint,
-          hintStyle: const TextStyle(color: primarycolor, fontSize: 18),
+          hintStyle: const TextStyle(color: kprimarycolor, fontSize: 18),
           border: bildborder(),
           enabledBorder: bildborder(),
-          focusedBorder: bildborder(primarycolor)),
+          focusedBorder: bildborder(kprimarycolor)),
     );
   }
 }

@@ -11,7 +11,7 @@ class Custommaterialbutton extends StatelessWidget {
       height: 55,
       child: MaterialButton(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        color: primarycolor,
+        color: kprimarycolor,
         textColor: Colors.black,
         onPressed: () {},
         child: const Text(
