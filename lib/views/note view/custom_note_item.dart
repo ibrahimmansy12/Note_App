@@ -14,7 +14,7 @@ class NoteItem extends StatelessWidget {
       child: InkWell(
         onTap: () {
           Navigator.of(context).push(MaterialPageRoute(
-            builder: (context) => Pageeditnote(),
+            builder: (context) => const Pageeditnote(),
           ));
         },
         child: Column(

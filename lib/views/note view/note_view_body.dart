@@ -12,7 +12,10 @@ class NoteViewBody extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
       child: Column(
         children: [
-          CustomeApppar(),
+          CustomeApppar(
+            title: "Note",
+            icon: Icons.search,
+          ),
           // SizedBox(
           //   height: 50,
           // ),
@@ -22,4 +25,3 @@ class NoteViewBody extends StatelessWidget {
     );
   }
 }
-

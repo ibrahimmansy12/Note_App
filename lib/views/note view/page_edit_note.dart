@@ -7,6 +7,6 @@ class Pageeditnote extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body:Editnotebody() ,);
+    return const Scaffold(body:Editnotebody() ,);
   }
 }

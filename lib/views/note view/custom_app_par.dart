@@ -2,21 +2,24 @@ import 'package:flutter/material.dart';
 import 'package:noteprject/views/note%20view/customesearchicon.dart';
 
 class CustomeApppar extends StatelessWidget {
-  const CustomeApppar({super.key});
-
+  const CustomeApppar({super.key, required this.icon, required this.title});
+  final IconData icon;
+  final String title;
   @override
   Widget build(BuildContext context) {
-    return const Row(
+    return Row(
       children: [
-        SizedBox(
+        const SizedBox(
           height: 95,
         ),
         Text(
-          "Note",
-          style: TextStyle(fontSize: 28),
+          title,
+          style: const TextStyle(fontSize: 28),
         ),
-        Spacer(),
-        Customesearchicon()
+        const Spacer(),
+        Customesearchicon(
+          icon:icon,
+        )
       ],
     );
   }
