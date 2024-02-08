@@ -1,3 +1,4 @@
+//import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 import 'package:noteprject/constance_color.dart';
 
@@ -10,14 +11,14 @@ class CustonTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextField(
       maxLines: maxlines,
-      cursorColor: Primarycolor,
+      cursorColor: primarycolor,
       decoration: InputDecoration(
         
           hintText: hint,
-          hintStyle: const TextStyle(color: Primarycolor, fontSize: 18),
+          hintStyle: const TextStyle(color: primarycolor, fontSize: 18),
           border: bildborder(),
           enabledBorder: bildborder(),
-          focusedBorder: bildborder(Primarycolor)),
+          focusedBorder: bildborder(primarycolor)),
     );
   }
 }

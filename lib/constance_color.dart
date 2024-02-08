@@ -2,4 +2,4 @@
 
 import 'package:flutter/animation.dart';
 
-const Primarycolor=Color(0xff62FCD7);
+const primarycolor=Color(0xff62FCD7);
